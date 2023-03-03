@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ClientMessegeGUI">
+  <grid id="27dc6" binding="MessegePanel" layout-manager="FlowLayout" hgap="5" vgap="15" flow-align="0">
+    <constraints>
+      <xy x="20" y="20" width="1024" height="540"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <maximumSize width="1024" height="540"/>
+      <minimumSize width="1024" height="540"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f0c9f" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <maximumSize width="512" height="50"/>
+          <minimumSize width="512" height="50"/>
+          <preferredSize width="500" height="60"/>
+          <text value="用户名："/>
+        </properties>
+      </component>
+      <component id="2d24" class="javax.swing.JLabel" binding="userNameLabel">
+        <constraints/>
+        <properties>
+          <focusable value="false"/>
+          <font size="20" style="1"/>
+          <preferredSize width="500" height="60"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d31c" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <labelFor value="74608"/>
+          <preferredSize width="300" height="27"/>
+          <text value="昵称："/>
+        </properties>
+      </component>
+      <component id="74608" class="javax.swing.JTextField" binding="NameField">
+        <constraints/>
+        <properties>
+          <font size="16"/>
+          <minimumSize width="49" height="40"/>
+          <preferredSize width="420" height="40"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="10309" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="2"/>
+          <text value="&lt;16"/>
+        </properties>
+      </component>
+      <component id="bc773" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <labelFor value="ecbed"/>
+          <preferredSize width="475" height="27"/>
+          <text value="性别："/>
+        </properties>
+      </component>
+      <component id="ecbed" class="javax.swing.JComboBox" binding="SexBox">
+        <constraints/>
+        <properties>
+          <focusCycleRoot value="false"/>
+          <font size="16"/>
+          <minimumSize width="500" height="32"/>
+          <model>
+            <item value="无性别"/>
+            <item value="男"/>
+            <item value="女"/>
+          </model>
+          <popupVisible value="false"/>
+          <preferredSize width="100" height="40"/>
+        </properties>
+      </component>
+      <component id="19b69" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <maximumSize width="500" height="27"/>
+          <preferredSize width="400" height="27"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="834a4" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <maximumSize width="500" height="27"/>
+          <preferredSize width="400" height="27"/>
+          <text value="生日："/>
+        </properties>
+      </component>
+      <component id="e17da" class="javax.swing.JComboBox" binding="YearBox">
+        <constraints/>
+        <properties>
+          <font size="16"/>
+          <maximumRowCount value="150"/>
+          <model>
+            <item value="1900"/>
+            <item value="1901"/>
+            <item value="1902"/>
+            <item value="1903"/>
+            <item value="1904"/>
+            <item value="1905"/>
+            <item value="1906"/>
+            <item value="1907"/>
+            <item value="1908"/>
+            <item value="1909"/>
+            <item value="1910"/>
+            <item value="1911"/>
+            <item value="1912"/>
+            <item value="1913"/>
+            <item value="1914"/>
+            <item value="1915"/>
+            <item value="1916"/>
+            <item value="1917"/>
+            <item value="1918"/>
+            <item value="1919"/>
+            <item value="1920"/>
+            <item value="1921"/>
+            <item value="1922"/>
+            <item value="1923"/>
+            <item value="1924"/>
+            <item value="1925"/>
+            <item value="1926"/>
+            <item value="1927"/>
+            <item value="1928"/>
+            <item value="1929"/>
+            <item value="1930"/>
+            <item value="1931"/>
+            <item value="1932"/>
+            <item value="1933"/>
+            <item value="1934"/>
+            <item value="1935"/>
+            <item value="1936"/>
+            <item value="1937"/>
+            <item value="1938"/>
+            <item value="1939"/>
+            <item value="1940"/>
+            <item value="1941"/>
+            <item value="1942"/>
+            <item value="1943"/>
+            <item value="1944"/>
+            <item value="1945"/>
+            <item value="1946"/>
+            <item value="1947"/>
+            <item value="1948"/>
+            <item value="1949"/>
+            <item value="1950"/>
+            <item value="1951"/>
+            <item value="1952"/>
+            <item value="1953"/>
+            <item value="1954"/>
+            <item value="1955"/>
+            <item value="1956"/>
+            <item value="1957"/>
+            <item value="1958"/>
+            <item value="1959"/>
+            <item value="1960"/>
+            <item value="1961"/>
+            <item value="1962"/>
+            <item value="1963"/>
+            <item value="1964"/>
+            <item value="1965"/>
+            <item value="1966"/>
+            <item value="1967"/>
+            <item value="1968"/>
+            <item value="1969"/>
+            <item value="1970"/>
+            <item value="1971"/>
+            <item value="1972"/>
+            <item value="1973"/>
+            <item value="1974"/>
+            <item value="1975"/>
+            <item value="1976"/>
+            <item value="1977"/>
+            <item value="1978"/>
+            <item value="1979"/>
+            <item value="1980"/>
+            <item value="1981"/>
+            <item value="1982"/>
+            <item value="1983"/>
+            <item value="1984"/>
+            <item value="1985"/>
+            <item value="1986"/>
+            <item value="1987"/>
+            <item value="1988"/>
+            <item value="1989"/>
+            <item value="1990"/>
+            <item value="1991"/>
+            <item value="1992"/>
+            <item value="1993"/>
+            <item value="1994"/>
+            <item value="1995"/>
+            <item value="1996"/>
+            <item value="1997"/>
+            <item value="1998"/>
+            <item value="1999"/>
+            <item value="2000"/>
+            <item value="2001"/>
+            <item value="2002"/>
+            <item value="2003"/>
+            <item value="2004"/>
+            <item value="2005"/>
+            <item value="2006"/>
+            <item value="2007"/>
+            <item value="2008"/>
+            <item value="2009"/>
+            <item value="2010"/>
+            <item value="2011"/>
+            <item value="2012"/>
+            <item value="2013"/>
+            <item value="2014"/>
+            <item value="2015"/>
+            <item value="2016"/>
+            <item value="2017"/>
+            <item value="2018"/>
+            <item value="2019"/>
+            <item value="2020"/>
+            <item value="2021"/>
+            <item value="2022"/>
+          </model>
+          <preferredSize width="88" height="40"/>
+        </properties>
+      </component>
+      <component id="14ec2" class="javax.swing.JComboBox" binding="MonthBox">
+        <constraints/>
+        <properties>
+          <font size="16"/>
+          <maximumRowCount value="12"/>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+            <item value="9"/>
+            <item value="10"/>
+            <item value="11"/>
+            <item value="12"/>
+          </model>
+          <preferredSize width="78" height="40"/>
+        </properties>
+      </component>
+      <component id="5e8eb" class="javax.swing.JComboBox" binding="DayBox">
+        <constraints/>
+        <properties>
+          <font size="16"/>
+          <maximumRowCount value="31"/>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+            <item value="9"/>
+            <item value="10"/>
+            <item value="11"/>
+            <item value="12"/>
+            <item value="13"/>
+            <item value="14"/>
+            <item value="15"/>
+            <item value="16"/>
+            <item value="17"/>
+            <item value="18"/>
+            <item value="19"/>
+            <item value="20"/>
+            <item value="21"/>
+            <item value="22"/>
+            <item value="23"/>
+            <item value="24"/>
+            <item value="25"/>
+            <item value="26"/>
+            <item value="27"/>
+            <item value="28"/>
+            <item value="29"/>
+            <item value="30"/>
+            <item value="31"/>
+          </model>
+          <preferredSize width="78" height="40"/>
+        </properties>
+      </component>
+      <component id="5f649" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <maximumSize width="500" height="27"/>
+          <preferredSize width="200" height="27"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="10706" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <preferredSize width="300" height="27"/>
+          <text value="爱好："/>
+        </properties>
+      </component>
+      <component id="5b1d2" class="javax.swing.JTextField" binding="HobbyField">
+        <constraints/>
+        <properties>
+          <font size="16"/>
+          <minimumSize width="49" height="40"/>
+          <preferredSize width="420" height="40"/>
+        </properties>
+      </component>
+      <component id="be9a7" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="2"/>
+          <text value="&lt;50"/>
+        </properties>
+      </component>
+      <component id="55f9" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <preferredSize width="300" height="27"/>
+          <text value="地址："/>
+        </properties>
+      </component>
+      <component id="c1b3b" class="javax.swing.JTextField" binding="AddressField">
+        <constraints/>
+        <properties>
+          <font size="16"/>
+          <preferredSize width="420" height="40"/>
+        </properties>
+      </component>
+      <component id="842d4" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="2"/>
+          <text value="&lt;50"/>
+        </properties>
+      </component>
+      <component id="f8512" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <preferredSize width="300" height="27"/>
+          <text value="联系方式："/>
+        </properties>
+      </component>
+      <component id="c9a0f" class="javax.swing.JTextField" binding="ContactField">
+        <constraints/>
+        <properties>
+          <font size="16"/>
+          <preferredSize width="420" height="40"/>
+        </properties>
+      </component>
+      <component id="a87ca" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="2"/>
+          <text value="&lt;50"/>
+        </properties>
+      </component>
+      <component id="cde75" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <maximumSize width="512" height="50"/>
+          <minimumSize width="512" height="50"/>
+          <preferredSize width="430" height="60"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="442e9" class="javax.swing.JButton" binding="ChangeButton">
+        <constraints/>
+        <properties>
+          <font size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <label value="修改"/>
+          <preferredSize width="140" height="45"/>
+          <text value="修改"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

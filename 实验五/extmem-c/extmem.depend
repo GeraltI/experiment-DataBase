@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1672496051 source:c:\users\hao\desktop\code\c\extmem-c\extmem.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+
+1672496051 c:\users\hao\desktop\code\c\extmem-c\extmem.h
+
+1672505318 source:c:\users\hao\desktop\code\c\extmem-c\test.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+
